@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:dev": "ENV=dev npx playwright test",
+    "test:staging": "ENV=staging npx playwright test",
+    "test:prod": "ENV=prod npx playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
